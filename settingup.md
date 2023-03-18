@@ -14,7 +14,7 @@ Use ssh to connect to Bridges-2 using ACCESS credentials and (optionally, if you
 * Enter your ACCESS password when prompted.
 * If you are registered with ACCESS DUO, you will receive a prompt on your device.  Once you have approved it, you will be logged in.
 
-* If you have a previous Pittsburg supercomputing password, you may login using this password, but you will be using your own computational resources. 
+* If you have a previous Pittsburgh Supercomputing Center (PSC) username and password, you may login using this password, but you will be using your own computational resources. 
 
 ### Logging in as a Jupyter Notebook via on-demand.
 
