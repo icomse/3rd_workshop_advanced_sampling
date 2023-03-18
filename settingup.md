@@ -1,4 +1,4 @@
-#Setting up software for this workshop:
+# Setting up software for this i-CoMSE workshop:
 
 ## Official invitees
 
@@ -33,6 +33,6 @@ Download the singularity image here.  You can install it by doing . . . .
 
 To run Jupyter notebooks without . . . 
 
-## Post
+## Post-workshop software setup
 
 Instructions for asynchronously running the software after the workshop will be posted here afterwards.
