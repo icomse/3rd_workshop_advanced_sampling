@@ -1,7 +1,21 @@
 #include "oplsaa.ff/forcefield.itp"
 #include "oplsaa.ff/tip3p.itp"
-#include "CL.itp"
-#include "NA.itp"
+
+[ moleculetype ]
+; molname   nrexcl
+CL      1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1       opls_401    1       CL          CL       1      -1       35.45300
+
+[ moleculetype ]
+; molname   nrexcl
+NA          1
+
+[ atoms ]
+; id    at type     res nr  residu name at name  cg nr  charge   mass
+1       opls_407    1       NA          NA       1      1        22.98977
 
 [ System ]
 NaCl in water
