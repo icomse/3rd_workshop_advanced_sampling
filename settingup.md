@@ -25,13 +25,47 @@ Use ssh to connect to Bridges-2 using ACCESS credentials and (optionally, if you
 *  The OnDemand Dashboard will open.  From this page, you can use the menus across the top of the page to manage files and submit jobs to Bridges-2.
 To end your OnDemand session, choose Log Out at the top right of the Dashboard window and close your browser.
 
-* Other stuff.
+* For additional information, go to the "HOME BASE" link sent to you earlier. 
 
 ## Accessing the software during the workshop for additional participants watching
 
-Download the singularity image here.  You can install it by doing . . . .   
+### If you have your own account/allocation on PSC
 
-To run Jupyter notebooks without . . . 
+Load our required modules
+``` 
+module load gromacs/2020.2-cpu
+module load plumed
+module load openmpi/4.0.5-gcc10.2.0
+```
+You 
+
+### If you don't have an account on PSC
+You can check out this dockerfile. And to copy the dockerfile with singularity, use:
+
+You can install it by running:
+'''
+singularity pull docker://ghcr.io/cmelab/icomse:latest
+'''
+
+If you wish to replicate the python environment locally without gromacs/plumed, you can use the following environment.yml:
+name: pathsamplingenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - dask
+  - mdanalysis
+  - seaborn
+  - jupyter
+  - matplotlib
+  - numpy
+
+And to get gromacs/plumed via conda:
+'''
+	conda install -strict-channel-priority -c \
+	    plumed/label/masterclass-2022 -c conda-forge plumed gromacs
+'''      
 
 ## Post-workshop software setup
 
