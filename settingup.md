@@ -2,7 +2,7 @@
 
 ## Official invitees
 
-* You should test your connection for Bridges2, which we will be using as the primary computing resources.  We will be accessing the system in two ways: running a Jupyter notebook, and directly running 
+* Before we start the workshop, you should test your connection for Bridges2, which we will be using as the primary computing resources.  We will be accessing the system in two ways: running a Jupyter notebook, and directly running 
 
 ### Logging in via SSH
 
