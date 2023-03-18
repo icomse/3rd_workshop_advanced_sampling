@@ -18,6 +18,14 @@ Use ssh to connect to Bridges-2 using ACCESS credentials and (optionally, if you
 
 ### Logging in as a Jupyter Notebook via on-demand.
 
+* To connect to Bridges-2 via OnDemand, point your browser to https://ondemand.bridges2.psc.edu.
+
+* You will be prompted for a username and password.  Enter your your access username prefixed with 'access-' and your ACCESS password.  i.e. if your access password is amy3, then use the username 'access-amy3'. 
+
+*  The OnDemand Dashboard will open.  From this page, you can use the menus across the top of the page to manage files and submit jobs to Bridges-2.
+To end your OnDemand session, choose Log Out at the top right of the Dashboard window and close your browser.
+
+* Other stuff.
 
 ## Accessing the software during the workshop for additional participants watching
 
