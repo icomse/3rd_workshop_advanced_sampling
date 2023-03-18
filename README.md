@@ -3,7 +3,7 @@
 ### Dates: March 20-24, 2023
 
 ### Requirements:
-[See the following link for setting up software](Software.md)
+[See the following link for setting up software](settingup.md)
 
 ### Workshop Material
 
