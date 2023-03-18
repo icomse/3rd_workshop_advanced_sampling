@@ -1,6 +1,6 @@
 integrator = md 
 dt = 0.002
-nsteps = 1000000
+nsteps = 250000
 cutoff-scheme = Verlet
 coulombtype = PME
 rlist = 0.6
