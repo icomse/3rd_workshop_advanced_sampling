@@ -19,6 +19,6 @@ pcoupl = Parrinello-Rahman
 pcoupltype = isotropic
 ref-p = 1.01325
 compressibility = 4.5e-5
-nstxout-compressed = 125
+nstxout-compressed = 50
 nstxout = 50000
 nstvout = 50000

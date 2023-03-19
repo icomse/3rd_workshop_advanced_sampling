@@ -15,6 +15,6 @@ gen-vel = yes
 gen-temp = 300
 gen-seed = -1 
 DispCorr = AllEnerPres
-nstxout-compressed = 125
+nstxout-compressed = 50
 nstxout = 50000
 nstvout = 50000
