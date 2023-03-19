@@ -35,13 +35,12 @@ To run the Jupyter notebook `MD_HPC.ipynb` on Bridges-2, follow the steps below:
 ## 2. Outline
 Here is the outline of this session:
 - Introduction to High-Performing Computing (HPC) systems
-- [Exercise 1](): Performing decoupled MD simulations in parallel
+- [Exercise 1](https://github.com/icomse/3rd_workshop_advanced_sampling/tree/main/Wednesday/Exercise_1): Performing decoupled MD simulations in parallel
 - The theory of umbrella sampling
-- [Exercise 2](): Performing umbrella sampling in parallel
-- [Exercise 3](): Analyzing umbrella sampling with MBAR
+- [Exercise 2](https://github.com/icomse/3rd_workshop_advanced_sampling/tree/main/Wednesday/Exercise_2): Performing and analyzing umbrella sampling 
 - The theory of multiple walkers metadynamics
-- [Exercise 4](): Performing and analyzing multiple walkers metadynamics
+- [Exercise 3](): Performing and analyzing multiple walkers metadynamics
 - The theory of replica exchange molecular dynamics
-- [Exercise 5](): Performing and analyzing Hamiltonian replica exchange
+- [Exercise 4](): Performing and analyzing Hamiltonian replica exchange
 - The theory of replica exchange umbrella sampling
-- [Exercise 6](): Performing and analyzing replica exchange umbrella sampling
+- [Exercise 5](): Performing and analyzing replica exchange umbrella sampling
