@@ -6,26 +6,22 @@
 
 ### Logging in via SSH
 
-Use ssh to connect to Bridges-2 using ACCESS credentials and (optionally, if you have it set up) DUO MFA:
+Set your Bridges-2 password(if you are not already aware of what your password is). To do this, go to https://apr.psc.edu and click Start. Enter in your Bridges-2 username and the email address that you created your ACCESS account with, then click Submit. (If you do not know your Bridges-2 Username, please visit this page in ACCESS: https://allocations.access-ci.org/profile). You will receive an email containing a security code. Enter that into the box listed "Security Code" and then again click Submit. Choose your PSC password, noting the password rules on the page, and click Submit again.
 
-* Using your ssh client, use your ACCESS credentials and connect to hostname bridges2.psc.edu.
+* Using your ssh client, use this Bridges-2 username and your new password.
 
-* ```ssh access-username@bridges2.psc.edu```
-* Enter your ACCESS password when prompted.
-* If you are registered with ACCESS DUO, you will receive a prompt on your device.  Once you have approved it, you will be logged in.
-
-* If you have a previous Pittsburgh Supercomputing Center (PSC) username and password, you may login using this password, but you will be using your own computational resources. 
+* If you have a previous Pittsburgh Supercomputing Center (PSC) username and password, you may login using this password, but you will end up using your own computational resources. 
 
 ### Logging in as a Jupyter Notebook via on-demand.
 
 * To connect to Bridges-2 via OnDemand, point your browser to https://ondemand.bridges2.psc.edu.
 
-* You will be prompted for a username and password.  Enter your your access username prefixed with 'access-' and your ACCESS password.  i.e. if your access password is amy3, then use the username 'access-amy3'. 
+* You will be prompted for a username and password.  These are your Bridges-2 username and password from above.
 
 *  The OnDemand Dashboard will open.  From this page, you can use the menus across the top of the page to manage files and submit jobs to Bridges-2.
 To end your OnDemand session, choose Log Out at the top right of the Dashboard window and close your browser.
 
-* For additional information, go to the "HOME BASE" link sent to you earlier. 
+* For additional information, go to the "Home BasE" document link sent to you earlier. 
 
 ## Accessing the software during the workshop for additional participants watching
 
@@ -69,4 +65,4 @@ And to get gromacs/plumed via conda:
 
 ## Post-workshop software setup
 
-Instructions for asynchronously running the software after the workshop will be posted here afterwards.
+Instructions for asynchronously running the software after the workshop will be posted in this section afterwards.
