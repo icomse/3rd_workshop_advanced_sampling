@@ -1,0 +1,20 @@
+; em.mdp - used as input into grompp to generate em.tpr
+; All unspecified parameters adopt their own default values.
+
+; Run Control
+integrator  = steep         ; Algorithm (steep = steepest descent minimization)
+nsteps      = 500000        ; (0) maximum number of steps to integrate or minimize
+
+; Energy minnimization
+emtol       = 100.0        ; (10.0) Stop minimization when the maximum force < 100.0 kJ/mol/nm
+emstep      = 0.01          ; (0.01) [nm] Minimization step size
+
+; Neighbor searching/Electrostatics/Van der Waals
+cutoff-scheme   = Verlet    ; Buffered neighbor searching
+nstlist         = 10        ; (10) Frequency to update the neighbor list and long range forces
+ns_type         = grid      ; Method to determine neighbor list (simple, grid)
+pbc             = xyz       ; Periodic Boundary Conditions in all 3 dimensions
+coulombtype     = PME       ; Treatment of long range electrostatic interactions
+rcoulomb        = 0.7       ; Short-range electrostatic cut-off
+rvdw            = 0.7       ; Short-range Van der Waals cut-off
+rlist           = 0.7

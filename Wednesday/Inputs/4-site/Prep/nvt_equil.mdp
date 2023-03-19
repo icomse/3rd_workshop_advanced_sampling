@@ -2,17 +2,15 @@
 integrator               = md-vv
 tinit                    = 0
 dt                       = 0.002
-nsteps                   = 500000  ; 1 ns
+nsteps                   = 100000  ; 200 ps
 comm-mode                = Linear
 nstcomm                  = 1
-nstfout                  = 0
 
 ; Output control
 nstlog                   = 1000
 nstcalcenergy            = 1
 nstenergy                = 1000
-nstxout-compressed       = 100
-compressed-x-grps        = LIG
+nstxout-compressed       = 1000
 
 ; Neighborsearching and short-range nonbonded interactions
 nstlist                  = 10
@@ -21,69 +19,47 @@ pbc                      = xyz
 rlist                    = 0.7
 
 ; Electrostatics
+cutoff-scheme         = verlet
 coulombtype              = PME
 rcoulomb                 = 0.7
 
 ; van der Waals
+vdw-type                 = Cut-off
 rvdw                     = 0.7
 
-; Apply long range dispersion corrections for Energy and Pressure 
+; Apply long-range dispersion corrections for Energy and Pressure 
 DispCorr                 = AllEnerPres
 
 ; Spacing for the PME/PPPM FFT grid
-fourierspacing           = 0.12
+fourierspacing           = 0.10
 
 ; EWALD/PME/PPPM parameters
 fourier_nx               = 0
 fourier_ny               = 0
 fourier_nz               = 0
 pme_order                = 4
-ewald_rtol               = 1e-08
+ewald_rtol               = 1e-05
 ewald_geometry           = 3d
 epsilon_surface          = 0
 
 ; Temperature coupling
-tcoupl                   = Nose-Hoover
+tcoupl                   = v-rescale
+nsttcouple               = 1
 tc_grps                  = System
-tau_t                    = 5.0
+tau_t                    = 0.5
 ref_t                    = 300
 
 ; Pressure coupling is on for NPT
-pcoupl                   = no
-
-; refcoord_scaling should do nothing since there are no position restraints.
+pcoupl                   = no   ; no pressure for NVT equilibration
 
 gen_vel                  = yes
 gen-temp                 = 300
-gen-seed                 = 12; need to randomize the seed each time.
+gen-seed                 = 6722267; need to randomize the seed each time.
 
 ; options for bonds
 constraints              = h-bonds  ; we only have C-H bonds here
-
 ; Type of constraint algorithm
 constraint-algorithm     = lincs
-continuation             = no
-
 ; Highest order in the expansion of the constraint coupling matrix
 lincs-order              = 12
-lincs-warnangle          = 30
-morse                    = no
-
-; Free energy calculation
-free_energy              = yes
-calc-lambda-neighbors    = -1
-sc-alpha                 = 0.5
-sc-power                 = 1 
-couple-moltype           = LIG
-couple-lambda0           = vdw
-couple-lambda1           = none
-couple-intramol          = no
-init-lambda-state        = 0
-
-nstdhdl                  = 100
-dhdl-print-energy        = total
-
-; lambda-states          = 1      2      3      4      5      6      7      8
-coul-lambdas             = 0.00   0.30   0.65   1.00   1.00   1.00   1.00   1.00
-vdw-lambdas              = 0.00   0.00   0.00   0.00   0.30   0.60   0.80   1.00
-fep-lambdas              = 0.00   0.15   0.30   0.45   0.60   0.75   0.90   1.00
+lincs-iter               = 2
