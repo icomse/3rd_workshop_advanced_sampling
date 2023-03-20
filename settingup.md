@@ -51,7 +51,7 @@ conda activate icomseW23
 
 And to get gromacs/plumed via conda:
 ```
-	conda install -strict-channel-priority -c \
+	conda install --strict-channel-priority -c \
 	    plumed/label/masterclass-2022 -c conda-forge plumed gromacs
 ```
 
