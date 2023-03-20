@@ -36,26 +36,16 @@ module load openmpi/4.0.5-gcc10.2.0
 You 
 
 ### If you don't have an account on PSC
-You can check out this dockerfile. And to copy the dockerfile with singularity, use:
+You can get a copy of the the dockerfile we're using with singularity using:
 
-You can install it by running:
 '''
 singularity pull docker://ghcr.io/cmelab/icomse:latest
 '''
 
-If you wish to replicate the python environment locally without gromacs/plumed, you can use the following environment.yml:
-name: pathsamplingenv
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - python=3.8
-  - dask
-  - mdanalysis
-  - seaborn
-  - jupyter
-  - matplotlib
-  - numpy
+If you wish to replicate the python environment locally without gromacs use this [environment.yml](environment.yml):
+'''
+conda env create -f environment.yml
+'''
 
 And to get gromacs/plumed via conda:
 '''
