@@ -43,8 +43,10 @@ singularity pull docker://ghcr.io/cmelab/icomse:latest
 '''
 
 If you wish to replicate the python environment locally without gromacs use this [environment.yml](environment.yml):
+
 '''
 conda env create -f environment.yml
+conda activate icomseW23
 '''
 
 And to get gromacs/plumed via conda:
