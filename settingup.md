@@ -40,8 +40,9 @@ You can get a copy of the the dockerfile we're using with singularity using:
 ```
 singularity pull docker://ghcr.io/cmelab/icomse:latest
 ```
+In principle this container can be used locally on your desktop/laptop, or on your singularity-enabled HPC cluster, but we unfortunately can't provide support getting that set up.
 
-If you wish to replicate the python environment from the container locally without gromacs use this [environment.yml](environment.yml):
+Most of the workshop functionality is provided through python libraries. If you wish to replicate the python environment from the container locally without gromacs use this [environment.yml](environment.yml):
 
 ```
 conda env create -f environment.yml
