@@ -21,7 +21,7 @@ Set your Bridges-2 password(if you are not already aware of what your password i
 *  The OnDemand Dashboard will open.  From this page, you can use the menus across the top of the page to manage files and submit jobs to Bridges-2.
 To end your OnDemand session, choose Log Out at the top right of the Dashboard window and close your browser.
 
-* For additional information, go to the "Home BasE" document link sent to you earlier. 
+* For additional information, go to the "Home Base" document link sent to you earlier. 
 
 ## Accessing the software during the workshop for additional participants watching
 
