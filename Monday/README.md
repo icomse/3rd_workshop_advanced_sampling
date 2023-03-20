@@ -1,1 +1,1 @@
-Introduction and Theory of Enhanced Sampling
+Notebook for the hands on session monday,  The notebook does not use MD packages, so can be run locally. Note that the notebook may be updated until just before the start of the workshop, so redownload when the workshop starts!
