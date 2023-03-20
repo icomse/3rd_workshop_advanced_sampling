@@ -33,27 +33,26 @@ module load gromacs/2020.2-cpu
 module load plumed
 module load openmpi/4.0.5-gcc10.2.0
 ```
-You 
 
 ### If you don't have an account on PSC
 You can get a copy of the the dockerfile we're using with singularity using:
 
-'''
+```
 singularity pull docker://ghcr.io/cmelab/icomse:latest
-'''
+```
 
-If you wish to replicate the python environment locally without gromacs use this [environment.yml](environment.yml):
+If you wish to replicate the python environment from the container locally without gromacs use this [environment.yml](environment.yml):
 
-'''
+```
 conda env create -f environment.yml
 conda activate icomseW23
-'''
+```
 
 And to get gromacs/plumed via conda:
-'''
+```
 	conda install -strict-channel-priority -c \
 	    plumed/label/masterclass-2022 -c conda-forge plumed gromacs
-'''      
+```
 
 ## Post-workshop software setup
 
