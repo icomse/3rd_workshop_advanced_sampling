@@ -1,0 +1,47 @@
+name: icomseW23
+channels:
+  - bioconda 
+  - conda-forge 
+dependencies:
+  - python=3.8
+  - plumed
+  - py-plumed
+  - "pymbar>=4.0"
+  - "alchemlyb=2.0"
+  - vim
+  - openssh
+  - mbuild
+  - gsd
+  - ipython
+  - ipykernel
+  - mdanalysis
+  - foyer
+  - ipywidgets
+  - widgetsnbextension
+  - freud
+  - py3Dmol
+  - ele
+  - mdtraj
+  - rdkit
+  - scipy
+  - networkx
+  - intermol
+  - numpy
+  - packmol
+  - parmed
+  - pip
+  - physical_validation
+  - dask
+  - matplotlib
+  - jupyter
+  - seaborn
+  - unyt
+  - constrainmol
+  - black
+  - sphinx
+  - sphinx_rtd_theme
+  - pytest
+  - pandas
+  - garnett
+  - pycifrw
+  - 
