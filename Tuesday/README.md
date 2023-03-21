@@ -17,7 +17,7 @@ This tutorial will be run through a Jupyter notebook via OnDemand. Thus, access 
 - Various other PLUMED tutorial can be found in the [manual](https://www.plumed.org/doc-v2.8/user-doc/html/tutorials.html)
 
 ### Review papers about Metadynamics and enhanced sampling are:
-- https://livecomsjournal.org/index.php/livecoms/article/view/v4i1e1583
+- http://doi.org/10.33011/livecoms.4.1.1583
 - http://doi.org/10.1146/annurev-physchem-040215-112229
 - https://doi.org/10.1038/s42254-020-0153-0
 - https://doi.org/10.1007/978-3-319-44677-6_49
