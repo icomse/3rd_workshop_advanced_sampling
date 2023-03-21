@@ -27,3 +27,4 @@ The slides can be found [here](https://github.com/icomse/3rd_workshop_advanced_s
 
 ### Other usefuls resources
 - [Graph](https://www.desmos.com/calculator/nqujdsvj0z) of a rational switching function
+
