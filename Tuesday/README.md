@@ -6,7 +6,9 @@ This tutorial will be run through a Jupyter notebook via OnDemand. Thus, access 
 
 **Note: here we will use the normal Python kernel, not the icomse-cpu one**
 
+## Slides
 
+The slides can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Tuesday/i-CoMSE-Workshop-Metadynamics-March21-2023.pdf)
 
 ## Resources
 
