@@ -31,10 +31,10 @@ LIG          3
 [ atoms ]
 ;   nr       type  resnr residue  atom   cgnr    charge       mass  typeB    chargeB      massB
 ; residue    1 LIG rtp LIG q -0.0
-    1         C      1    LIG      C1      1      0.2    10.0   C    0.2    10.0  
-    2         C      1    LIG      C2      2      0.0    10.0   C    0.0    10.0
-    3         C      1    LIG      C3      3      0.0    10.0   C    0.0    10.0
-    4         C      1    LIG      C4      4     -0.2    10.0   C   -0.2    10.0
+    1         C      1    LIG      C1      1      0.0    10.0 
+    2         C      1    LIG      C2      2      0.0    10.0 
+    3         C      1    LIG      C3      3      0.0    10.0 
+    4         C      1    LIG      C4      4      0.0    10.0
 
 [ bonds ]
 ;    ai     aj funct         c0         c1         c2         c3
@@ -53,7 +53,7 @@ LIG          3
 
 [ dihedrals ]
 ;    ai     aj     ak     al funct 
-      1      2      3      4     1  180      120      2      180    2    2
+      1      2      3      4     1  180      60      2
 
 ; Include water topology
 #include "amber99sb-ildn.ff/tip3p.itp"
@@ -65,4 +65,4 @@ Generic title in water
 [ molecules ]
 ; Compound       #mols
 LIG                 1
-SOL               133
+SOL               130

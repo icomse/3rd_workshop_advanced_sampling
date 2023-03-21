@@ -75,7 +75,7 @@ calc-lambda-neighbors    = -1
 sc-alpha                 = 0.5
 sc-power                 = 1 
 couple-moltype           = LIG
-couple-lambda0           = vdw
+couple-lambda0           = vdw-q
 couple-lambda1           = none
 couple-intramol          = no
 init-lambda-state        = 0
@@ -84,6 +84,4 @@ nstdhdl                  = 100
 dhdl-print-energy        = total
 
 ; lambda-states          = 1      2      3      4      5      6      7      8
-coul-lambdas             = 0.00   0.30   0.65   1.00   1.00   1.00   1.00   1.00
-vdw-lambdas              = 0.00   0.00   0.00   0.00   0.30   0.60   0.80   1.00
-fep-lambdas              = 0.00   0.15   0.30   0.45   0.60   0.75   0.90   1.00
+vdw-lambdas              = 0.00   0.15   0.30   0.45   0.60   0.75   0.90   1.00
