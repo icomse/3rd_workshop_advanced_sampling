@@ -1,0 +1,20 @@
+# vim:ft=plumed
+
+dist:   READ FILE=fes-reweight/colvar_reweight.data IGNORE_TIME VALUES=dist
+coord:  READ FILE=fes-reweight/colvar_reweight.data IGNORE_TIME VALUES=coord
+mtd:    READ FILE=fes-reweight/colvar_reweight.data IGNORE_TIME VALUES=mtd.rbias
+
+weights: REWEIGHT_BIAS TEMP=300 ARG=mtd.rbias
+
+HISTOGRAM ...
+  ARG=dist
+  GRID_MIN=0.2
+  GRID_MAX=0.9
+  GRID_BIN=100
+  KERNEL=DISCRETE
+  LOGWEIGHTS=weights
+  LABEL=hg_dist
+... HISTOGRAM
+
+fes_dist: CONVERT_TO_FES GRID=hg_dist TEMP=300 MINTOZERO
+DUMPGRID GRID=fes_dist FILE=fes-reweight/fes-reweight.dist.data FMT=%24.16e

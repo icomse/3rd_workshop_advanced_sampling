@@ -1,0 +1,36 @@
+# vim:ft=plumed
+
+# Distance between Na and Cl atoms
+dist: DISTANCE ATOMS=322,323
+
+# Solvation of Na atom
+COORDINATION ...
+  LABEL=coord
+  GROUPA=322
+  GROUPB=1-321:3
+  SWITCH={RATIONAL R_0=0.315 D_MAX=0.5 NN=12 MM=24}
+  NLIST
+  NL_CUTOFF=0.55
+  NL_STRIDE=10
+... COORDINATION
+
+uwall: UPPER_WALLS ...
+   ARG=dist 
+   AT=0.6
+   KAPPA=4000.0 
+...
+
+METAD ...
+  LABEL=mtd
+  ARG=dist,coord
+  PACE=500
+  SIGMA=0.01,0.1 
+  HEIGHT=1.25
+  BIASFACTOR=5
+  GRID_MIN=0.0,1.0
+  GRID_MAX=1.0,10.0
+  CALC_RCT
+  FILE=hills.data
+... METAD
+
+PRINT ARG=dist,coord,mtd.*,uwall.* FILE=colvar.data STRIDE=250
