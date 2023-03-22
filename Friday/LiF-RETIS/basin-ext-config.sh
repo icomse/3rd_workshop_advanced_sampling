@@ -10,10 +10,8 @@ bop_num=`awk -v beginLNR="$beginLNR" '{ if ( NR == beginLNR ) {print $2; exit} }
 
 #echo $op_num $exttime $beginLNR $begintime $bop_num > test.txt
 
-#gmx trjconv -f ~/lj-8192-proj/initial_config/basin/prod.xtc -s ~/lj-8192-proj/initial_config/basin/prod.tpr -o ~/lj-8192-proj/config_extraction/gl-initf_ens-${interface_num}.trr -dump "$exttime" <<< "0"
-
 # because our trajectory is reversed, the -b -e inputs would need to be flipped
-gmx trjconv -f init-path.trr -o config_extraction/gl-initf_ens-${interface_num}.trr -b "$exttime" -e "$begintime"
+gmx trjconv -f /ocean/projects/see220002p/minhx010/LiF-RETIS/init-path.trr -o config_extraction/gl-initf_ens-${interface_num}.trr -b "$exttime" -e "$begintime"
 
 awk -v interface_num="$interface_num" -v begintime="$begintime" -v bop_num="$bop_num" 'BEGIN{print "gl-initf_ens-" interface_num " " begintime " " bop_num " " 1}' >> config_extraction/path_gl-initf_ens-${interface_num}.txt
 
