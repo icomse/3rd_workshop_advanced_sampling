@@ -25,6 +25,8 @@
 
 This tutorial will be run through Jupyter notebooks (located in the directory at the left of your screen) via OnDemand. For each Jupyter notebook, please make sure to switch your kernel to “icomse-cpu” kernel.
 
+Note: For participants without Bridges2 access, please refer to this link: [https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/settingup.md](y) for environment setup instructions
+
 - In this tutorial, you will see Jupyter notebooks for each toy model of each path sampling method: TPS, TIS, RETIS, FFS and cFFS. 
   - TPS = Transition path sampling
   - TIS = Transition interface sampling
