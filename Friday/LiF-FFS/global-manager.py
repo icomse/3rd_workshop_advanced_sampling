@@ -86,7 +86,9 @@ def main():
     global END
     global L
     done = False
+    basin = False
     if START == -1:
+        basin = True
         command = SHPATH_SETUP + " " + PATH + " " + MPATH
         subprocess.call(['bash','-c',command])
         flux = basinA("F","Li")
@@ -115,7 +117,7 @@ def main():
             break
     f = open(MPATH+"stdout.txt", "a")
     if done:
-        if START == -1:
+        if basin:
             calc_rate(flux,cumuprob)
         f.write(f"Calculation completed at interface: {i+1}!! Exiting normally...\n")
     else:
