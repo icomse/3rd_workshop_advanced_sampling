@@ -6,9 +6,7 @@
 #SBATCH --account=see220002p
 #SBATCH -e stderr-lif
 #SBATCH -o stdout-lif
-#SBATCH --mem=62g
-#SBATCH --mail-type=ALL  
-#SBATCH --mail-user=tramp037@umn.edu 
+#SBATCH --mem=62g 
 
 chmod +x scripts/setup.sh
 chmod +x global-manager.py
