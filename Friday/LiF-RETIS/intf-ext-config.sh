@@ -1,6 +1,5 @@
 #!/bin/bash 
 
-source /home/sarupria/shared/software/load_scripts/load_gromacs-2022.sh
 mkdir config_extraction 
 
 # now actually finding the time of the op value
