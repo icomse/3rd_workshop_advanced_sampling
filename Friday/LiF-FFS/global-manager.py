@@ -27,9 +27,9 @@ client = Client(cluster)
 
 # DEFINE PATHS HERE ***** EDIT HERE *****
 # result directory
-MPATH = "/ocean/projects/see220002p/$(whoami)/LiF-FFS/"
+MPATH = "/ocean/projects/see220002p/$(whoami)/lif-ffs/"
 # program directory
-PATH = "/jet/home/$(whoami)/LiF-FFS/"
+PATH = "/jet/home/$(whoami)/[YOUR iCoMSE DIRECTORY]/Friday/LiF-FFS/"
 # basin A trajectory directory
 BPATH = "/ocean/projects/see220002p/shared/lif/"
 # paths to bash scripts
