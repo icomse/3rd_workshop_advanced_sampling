@@ -1,0 +1,18 @@
+
+; Ryan DeFever
+; Sarupria Research Group
+; Clemson University
+; 2018 Jun 11
+
+
+#include "./dang-ions.itp"
+
+[ system ]
+; Name
+LiF
+
+[ molecules ]
+; Compound       #mols
+Li                  1
+F                   1
+SOL               508
