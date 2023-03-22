@@ -1,9 +1,5 @@
-; For GROMACS 2018 NPT
-; Ryan DeFever
-; Sarupria Research Group
-; Clemson University
-; 2018-06-11
-; Modified by: PH Minh
+; SAMPEL Group
+; Written by: PH Minh
 ; Last Updated on: 03-21-2023
 
 ;;;;;;;;;; RUN CONTROL ;;;;;;;;;;;;;;;
