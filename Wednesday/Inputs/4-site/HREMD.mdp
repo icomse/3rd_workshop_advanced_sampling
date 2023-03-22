@@ -77,7 +77,6 @@ sc-power                 = 1
 couple-moltype           = LIG
 couple-lambda0           = vdw-q
 couple-lambda1           = none
-couple-intramol          = no
 init-lambda-state        = 0
 
 nstdhdl                  = 100
