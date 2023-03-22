@@ -1,0 +1,53 @@
+; For GROMACS 2018 NPT
+; Ryan DeFever
+; Sarupria Research Group
+; Clemson University
+; 2018-06-11
+; Modified by: PH Minh
+; Last Updated on: 03-21-2023
+
+;;;;;;;;;; RUN CONTROL ;;;;;;;;;;;;;;;
+integrator 		= sd 			    ; sd integrator
+dt                      =  0.0005                   ; time step (0.5 fs)
+nsteps                  =  NNNN                     ; number of steps
+comm-grps               =  System
+comm-mode               =  Linear
+nstcomm                 =  10                       ; reset c.o.m. motion
+nstcalcenergy           =  10        		    ; calculate energy -- this must be less than nstcomm
+
+;;;;;;;;;; OUTPUTS ;;;;;;;;;;;;;;;
+nstxout                 =  10                       ; write coords
+nstvout                 =  10                       ; write velocities
+nstlog                  =  10                       ; print to logfile
+nstenergy               =  10                       ; print energies
+compressed-x-grps       =  System                   ; write coords (xtc)
+nstxout-compressed      =  10                       ; xtc frequency
+
+;;;;;;;;;; PBC/NLists/Cutoffs ;;;;;;;;;;;;;;;
+pbc		        =  xyz                      ; pbc type
+ns_type                 =  grid                     ; pairlist method
+nstlist                 =  10                       ; update pairlist (with verlet this is a min)
+cutoff-scheme	        =  Verlet		    ; Use Verlet method for pair lists
+verlet-buffer-tolerance =  0.005	            ; Default for npt simulation
+coulombtype             =  PME		       	    ; Use PME for long-range electrostatics
+rvdw                    =  1.0    	            ; cut-off for vdw
+rcoulomb                =  1.0                      ; cut-off for coulomb
+DispCorr                =  EnerPres                 ; long range correction
+
+;;;;;;;;;; TCOUPL ;;;;;;;;;;;;;;;
+tc-grps                 =  System                   ; t-coupl to entire system
+tau_t                   =  0.5                      ; time constant for t-coupl
+ref_t                   =  300.0                    ; desired temperature
+nsttcouple              =  25                       ; Apply t-coupling ev. so many steps
+gen_vel                 =  no                       ; no init. vel
+gen_temp                =  300.0                    ; init. temp.
+gen_seed                =  RRRR                     ; random seed
+
+;;;;;;;;;; PCOUPL ;;;;;;;;;;;;;;;
+Pcoupl                  =  Parrinello-Rahman        ; Production
+pcoupltype              =  isotropic                ; Isotropic pressure coupling
+ref_p                   =  1.0  					; desired pressure
+tau_p                   =  5.0						; time constant for p-coupl
+compressibility         =  4.5e-5	 	    		; compressibility of water
+
+

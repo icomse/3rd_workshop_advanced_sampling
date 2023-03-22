@@ -1,0 +1,19 @@
+; Written by Ryan DeFever
+; SAMPEL Group
+; 2018 Jun 11
+
+; Modified by Porhouy (PH) Minh
+; 2023 Mar 21
+
+
+#include "/ocean/projects/see220002p/$(whoami)/LiF-RETIS/dang-ions.itp"
+
+[ system ]
+; Name
+LiF
+
+[ molecules ]
+; Compound       #mols
+Li                  1
+F                   1
+SOL               508

@@ -1,0 +1,2 @@
+gl-initf_ens-2 9556.75000 2.15 1
+gl-initf_ens-2 0.0 0 1
