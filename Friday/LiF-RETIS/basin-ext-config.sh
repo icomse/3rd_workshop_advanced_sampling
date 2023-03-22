@@ -1,8 +1,6 @@
 #!/bin/bash 
 # this script is to extract a configuration right before the lambda 0 interface so that we can use it as a shooting point for the zero minus path 
 
-source /home/sarupria/shared/software/load_scripts/load_gromacs-2022.sh
-
 interface_num="basin"
 op_num=1.9 # op for defining the basin boundary 
 exttime=`awk -v op_num="$op_num" '{ if ( $2 > op_num ) {print $1} }' init-path.txt | tail -n -1` 
