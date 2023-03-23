@@ -1,18 +1,19 @@
 #  What to do next?
 
 ## Readings on advanced sampling methods
- - The big review:[Enhanced Sampling Methods for Molecular Dynamics Simulations [Article v1.0]](https://livecomsjournal.org/index.php/livecoms/article/view/v4i1e1583)
-   - This review is part of LiveCoMS, and attemps to systemetize.  It is rather extensive, with over 400 references so far!
+ - The big review: [Enhanced Sampling Methods for Molecular Dynamics Simulations [Article v1.0]](https://livecomsjournal.org/index.php/livecoms/article/view/v4i1e1583)
+   - This review is part of LiveCoMS, and attemps to systemetize the differences between different methods.  It is rather extensive, with over 400 references so far!  Because it is a "live" article, you can file issues on the GitHub repository associated with the article asking to have things explained better, or have and additional method we forgot added.
  - Other reviews:
    -
 ## Useful Software Tools
 
 - PLUMED
   - PLUMED is the code that was discussed 
-- PLUMED Nest
-  - 
-- WESTPA
-  - 
+- [PLUMED-Nest](https://www.plumed-nest.org/) 
+  - A repository of 
+- [WESTPA](https://westpa.readthedocs.io/)
+  - Software for a method we didn't really talk about, _weighted ensemble_ which biases sampling by maintaining "copies" of the system equally populated along the collective variable of interest.  
+  - A document with the different 
 - [pymbar](https://pymbar.readthedocs.io/)
   - A set of functions for calculating free energies between states and removing biases using multistate reweighting.
 - [alchemlyb](https://alchemlyb.readthedocs.io/)
