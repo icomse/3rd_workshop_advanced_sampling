@@ -27,12 +27,10 @@ This tutorial will be run through Jupyter notebooks (located in the directory at
 
 Note: For participants without Bridges2 access, please refer to this link: [https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/settingup.md](y) for environment setup instructions
 
-- In this tutorial, you will see Jupyter notebooks for each toy model of each path sampling method: TPS, TIS, RETIS, FFS and cFFS. 
+- In this tutorial, you will see Jupyter notebooks for each toy model of each path sampling method: TPS, TIS, RETIS. 
   - TPS = Transition path sampling
   - TIS = Transition interface sampling
   - RETIS = Replica exchange transition interface sampling 
-  - FFS = Forward flux sampling 
-  - cFFS = Contour forward flux sampling 
  
 - Each of these Jupyter notebooks will use langevin_dynamics.py, which uses stochastic dynamics to sample between two states (i.e., A and B) of the potential energy surfaces (PES) we provided.   
 
