@@ -1,4 +1,4 @@
-# Friday Tutorials (FFS and cFFS Tutorials and Simulation of LiF Dissociation using RETIS and FFS):
+# Friday (FFS and cFFS Tutorials and Simulation of LiF Dissociation using RETIS and FFS):
 
 # Getting setup and downloading the tutorials:
 
@@ -34,7 +34,7 @@ Note: For participants without Bridges2 access, please refer to this link: [http
 - Within each notebook, you will find short descriptions of what each notebook does and the learning objectives for that exercise.
 
 
-
+# Simulation of LiF Dissociation using RETIS and FFS
 
 To run this LiF dissociation simulation, with either RETIS or FFS, we will need to access a directory that allows for more storage than the home directory can provide. 
 
