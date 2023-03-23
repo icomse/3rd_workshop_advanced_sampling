@@ -17,7 +17,7 @@
   - “$ cd [YOUR iCoMSE DIRECTORY]”
 
 - Then using the command
-  - “$ git pull”: This will allow you to download the latest version of contents within the iCoMSE repository. 
+  - “$ git fetch”: This will allow you to download the latest version of contents within the iCoMSE repository. 
  
 # Friday Tutorials (Toy models of path sampling methods):
 
