@@ -42,6 +42,8 @@ To run this LiF dissociation simulation, with either RETIS or FFS, we will need 
 
   - “$ mkdir /ocean/projects/see220002p/$(whoami)”
 
+If Running RETIS:
+
 - Then navigate to your Ocean directory by using the following command:
   
   - “$ cd /ocean/projects/see220002p/$(whoami)” 
