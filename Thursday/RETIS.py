@@ -402,7 +402,7 @@ def performretis(pes_type,op_type,interfacevals,nmoves,basinAloc,initcoords,basi
     # Plot the density of states visited
     points = 100000              # our data is quite large, so we'll do this to avoid crashes when plotting
     ax.contour(x_vec,y_vec,energy,[-3.5,-3,-2.5,-2,-1.5,-1,-0.5,0,0.5,1,1.5,2,2.5,3], colors='silver')
-    ax.scatter( x[::len(x)/points], y[::len(y)/points], c=z[::len(z)/points], s=3, cmap = 'jet', alpha = 0.1)
+    ax.scatter( x[::int(len(x)/points)], y[::int(len(y)/points)], c=z[::int(len(z)/points)], s=3, cmap = 'jet', alpha = 0.1)
 
     norm = Normalize(vmin = np.min(z), vmax = np.max(z))
     cbar = fig.colorbar(cm.ScalarMappable(norm = norm, cmap = 'jet'), ax=ax)
