@@ -17,7 +17,7 @@
   - “$ cd [YOUR iCoMSE DIRECTORY]”
 
 - Then using the command
-  - “$ git pull origin main”: This will allow you to download the latest version of contents within the iCoMSE repository. 
+  - “$ git pull”: This will allow you to download the latest version of contents within the iCoMSE repository. 
  
  In addition to the Monday - Wednesday directories, you should now also see Thursday and Friday directories 
  
