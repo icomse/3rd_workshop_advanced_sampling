@@ -13,9 +13,10 @@
   - 
 - WESTPA
   - 
-- pymbar
-- alchemlyb
-  - a library for finding 
+- [pymbar](https://pymbar.readthedocs.io/)
+  - A set of functions for calculating free energies between states and removing biases using multistate reweighting.
+- [alchemlyb](https://alchemlyb.readthedocs.io/)
+  - a wrapper library to make it easy to parse output from molecular simulation programs into pymbar and other free energy calculation routines, as well as interact usefully with the analysis coming out of this software.
 
 ## Cutting edge questions
 
