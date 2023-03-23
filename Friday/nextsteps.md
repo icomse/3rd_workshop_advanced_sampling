@@ -9,7 +9,7 @@
 
 - PLUMED
   - PLUMED is the code that was discussed 
-- PLUMED next
+- PLUMED Nest
   - 
 - WESTPA
   - 
