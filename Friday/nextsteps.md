@@ -3,6 +3,7 @@
 ## Readings on advanced sampling methods
  - The big review: [Enhanced Sampling Methods for Molecular Dynamics Simulations [Article v1.0]](https://livecomsjournal.org/index.php/livecoms/article/view/v4i1e1583)
    - This review is part of LiveCoMS, and attemps to systemetize the differences between different methods.  It is rather extensive, with over 400 references so far!  -    - Because it is a "live" article, you can file issues on the GitHub repository associated with the article asking to have things explained better, or have and additional method we forgot to add!
+ - [Best Practices for Alchemical Free Energy Calculations v1.0](https://livecomsjournal.org/index.php/livecoms/article/view/v2i1e18378) 
 % - Other reviews:
 %   -
  
