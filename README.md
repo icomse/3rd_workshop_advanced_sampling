@@ -13,4 +13,6 @@
 | Tuesday   | [Metadynamics](Tuesday/README.md)        |                
 | Wednesday | [Replica Exchange](Wednesday/README.md)                    |        
 | Thursday | [Path Sampling](Thursday/README.md)                |               
-| Friday    | [Path Sampling](Friday/README.md)     	      	    |           
+| Friday    | [Path Sampling](Friday/README.md)     	      	    |         
+
+[Step to learn more after the workshop](nextsteps.md)
