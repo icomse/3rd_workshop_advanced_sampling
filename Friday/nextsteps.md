@@ -34,7 +34,7 @@
   - a wrapper library to make it easy to parse output from molecular simulation programs into pymbar and other free energy calculation routines, as well as interact usefully with the analysis coming out of this software.
 - [physical_validation](https://physical-validation.readthedocs.io/)
   - A set of tools to determine if your simulation obeys certain physical laws, such as equipartition and consistency with the Boltzamm distribution. You can see a [video about the approaches to do this here](https://www.youtube.com/watch?v=-Zxvi7EQwE4).
-  - [WESTPA](https://westpa.readthedocs.io/)
+- [WESTPA](https://westpa.readthedocs.io/)
   - Software for a method we didn't really talk about, _weighted ensemble_ which biases sampling by maintaining "copies" of the system equally populated along the collective variable of interest.  
   - A LiveCoMS article describing some WESTPA tutorials [linked here](https://livecomsjournal.org/index.php/livecoms/article/view/v1i2e10607). 
 
