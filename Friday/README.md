@@ -17,7 +17,8 @@
   - “$ cd [YOUR iCoMSE DIRECTORY]”
 
 - Then using the command
-  - “$ git fetch”: This will allow you to download the latest version of contents within the iCoMSE repository. 
+  - “$ git pull”: This will allow you to download the latest version of contents within the iCoMSE repository.
+    - If you are facing an issue due to the fact that you have previous commits, then you'd run do a "$ git revert" first before doing "$ git pull"
  
 # Friday Tutorials (Toy models of path sampling methods):
 
