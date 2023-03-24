@@ -52,12 +52,6 @@ If Running RETIS:
   
   - “$ cp -r ~/[YOUR iCoMSE DIRECTORY]/Friday/* ."
 
-You should see two directories:
-
-- LiF-RETIS: [Readme.txt](https://docs.google.com/document/d/1ZmcKZ1IfSJoPowOvZbf-U9q_t0PGVA3hwY1i7q1FC8M/edit?usp=sharing)
-
-- LiF-FFS: [Readme.txt](https://docs.google.com/document/d/1qZc1vysiBuHnXj2LjjFK-f2bSwkL7enEGSRacGvghh0/edit?usp=sharing)
-
 
 Note: For participants without Bridges2 access, please refer to this link: [https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/settingup.md](y) for environment setup instructions.
 
