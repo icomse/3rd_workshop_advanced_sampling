@@ -17,7 +17,7 @@
 - [PLUMED](https://www.plumed.org/)
   - PLUMED is the metadynamics code that was discussed earlier.  Note that is bigger than just metadynamics - there are other related methods that are supported as well. The official manual for PLUMED version 2.9 can be found [here](https://www.plumed.org/doc-v2.9/user-doc/html/index.html). A number of tutorials can also be found in the [manual](https://www.plumed.org/doc-v2.9/user-doc/html/tutorials.html)
   - [PLUMED-Nest](https://www.plumed-nest.org/) 
-    - A repository of "recipies" (input file sets) written for PLUMED; it's possible that something you want to try to do, or something SIMILAR to what you wanted to do, is already implemented, and you can borrow that!
+    - A repository of "recipies" (input file sets) written for PLUMED; it's possible that something you want to try to do, or something SIMILAR to what you want to do, is already implemented, and you can borrow that!
    - [PLUMED Masterclass](https://www.plumed.org/masterclass): Corresponding YouTube videos with lectures and solutions found [here](https://www.youtube.com/watch?v=2eGhMSdIJEs&list=PLmdKEn2znJEld8l6Hp9PXf4EursC4-8nC)
     - [Masterclass 21.1: PLUMED syntax and analysis](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-21-1.html)
     - [Masterclass 21.2: Statistical errors in MD](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-21-2.html)
@@ -28,7 +28,6 @@
     - [Masterclass 21.7: Optimizing PLUMED performances](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-21-7.html)
     - [Masterclass 22.3: OPES method](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-22-03.html)
     - [Masterclass 22.11: Variationally enhanced sampling with PLUMED](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-22-11.html)
-
 - [WESTPA](https://westpa.readthedocs.io/)
   - Software for a method we didn't really talk about, _weighted ensemble_ which biases sampling by maintaining "copies" of the system equally populated along the collective variable of interest.  
   - A LiveCoMS article describing some WESTPA tutorials [linked here](https://livecomsjournal.org/index.php/livecoms/article/view/v1i2e10607). 
