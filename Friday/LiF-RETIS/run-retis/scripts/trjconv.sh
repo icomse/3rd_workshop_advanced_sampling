@@ -32,9 +32,9 @@ gmx grompp -f /ocean/projects/see220002p/$(whoami)/LiF-RETIS/run-retis/masters/n
     -p /ocean/projects/see220002p/$(whoami)/LiF-RETIS/run-retis/masters/LiF.top \
     -maxwarn 1 \
     -o tpr-dummy.tpr
-gmx mdrun -deffnm dummy -ntmpi 16 -ntomp 1 -s tpr-dummy.tpr -c dummy.gro
+gmx mdrun -deffnm dummy -ntmpi 12 -ntomp 1 -s tpr-dummy.tpr -c dummy.gro
 mv dummy.gro ${outfilepath} 
-rm -f tpr-dummy.tpr mdout.mdp
+rm -f tpr-dummy.tpr mdout.mdp dummy*
 
 oldgro=`sed -e 's/\.gro/_old.gro/g' <<<"$outfilepath"`
 cp $outfilepath $oldgro

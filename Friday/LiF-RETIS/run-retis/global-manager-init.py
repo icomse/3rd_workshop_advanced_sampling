@@ -7,14 +7,14 @@ import copy
 import dask
 from dask.distributed import Client, LocalCluster
 
-with dask.config.set({"distributed.worker.resources.cores": 16}):
-    cluster = LocalCluster(n_workers=1, threads_per_worker=16, processes=False)
+with dask.config.set({"distributed.worker.resources.cores": 12}):
+    cluster = LocalCluster(n_workers=1, threads_per_worker=12, processes=False)
 client = Client(cluster)
 
 
 #NOTE: Swapping move is not enabled right now! -- See line 108 
-      #Changed lines 177 to ignore pathlength and always accept shooting move -- we want to ignore pathlength because max length right now is determined by the length of the current path's shooting slice (and since we only have 1 config right now, we would have a really small numerator when calculating the max length). As such, we would have a high rejection chance if we limit pathlength because we would keep having short paths and they will get rejected before we get an AA or AB path.  
-      # TIME REVERSALS CURRENTLY DISABLED
+      # Changed lines 174 if you'd like to ignore pathlength limit ( do --> alwaysAccept = True) -- we want to ignore pathlength because max length right now is determined by the length of the current path's shooting slice (and since we only have 1 config right now, we would have a really small numerator when calculating the max length). As such, we would have a high rejection chance if we limit pathlength because we would keep having short paths and they will get rejected before we get an AA or AB path.  
+      # TIME REVERSALS CURRENTLY DISABLED and PATH LENGTH CRITERIA IS TURNED OFF
 
 
 
@@ -33,18 +33,14 @@ FLOG = open(LOG_PATH,'w')
 # current code only works with commit length 1
 commit_length = 1 # number of frames in basin before being classified as returned to basin
 
-# dimensionless temperature
-# THIS AND THE KINETIC ENERGY CALCULATIONS NEED TO BE CHANGED IF UNITS ARE CHANGED FROM LJ
-#temperature = 300*8.31446/1000
-#beta = 1.0/temperature
 
-interfaces = [ 1.995, 2.095, 2.145, 2.195,
-               2.225, 2.255, 2.295, 2.345, 
-               2.395, 2.415, 2.495, 2.545,
-               2.595, 2.645, 2.695, 2.795, 2.895, 4 ]
+interfaces = [ 1.9199, 2.1319, 2.1999, 2.2599,
+               2.2799, 2.2999, 2.3099, 2.3399,
+               2.3799, 2.3999, 2.4199, 2.4299, 2.4999,
+               2.5999, 4.0000]
 
 # number of steps to run before checking for crossing
-nsteps = [500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500 ]
+nsteps = [ 50, 50, 50, 50, 50, 50, 50, 2000, 2000, 2000, 2000, 2000, 2000, 2000 ]
 
 # Quick sanity check
 ninterfaces = len(interfaces)-1
@@ -92,11 +88,11 @@ def write_paths(glmoveid):
     for interface in range(ninterfaces):
         filen = MPATH + str(interface) + "/paths/path_gl-" + str(glmoveid) + \
                 "_ens-" + str(interface) + ".txt"
-        np.savetxt(filen,paths[interface],fmt='%-25s%20f%10d%10d')
+        np.savetxt(filen,paths[interface],fmt='%-25s%20f%20f%10d')
     # And write basin
     filen = MPATH + "basin/paths/path_gl-" + str(glmoveid) + \
             "_ens-basin" + ".txt"
-    np.savetxt(filen,basin_path,fmt='%-25s%20f%10d%10d')
+    np.savetxt(filen,basin_path,fmt='%-25s%20f%20f%10d')
 
 def global_move_generator(glmoveid):
     global interfaces
@@ -114,7 +110,7 @@ def global_move_generator(glmoveid):
         if zero_minus_ensembles:
             print('performing zero minus')
             FLOG.write("-0<-->0,1<-->2,3<-->4...\n")
-            swap_status = client.submit(perform_zerominus_move, glmoveid, resources={"cores": 16})
+            swap_status = client.submit(perform_zerominus_move, glmoveid, resources={"cores": 12})
             tmpstat = swap_status.result()
             if tmpstat[0] == True:
                 paths[0] = tmpstat[1]
@@ -145,7 +141,7 @@ def global_move_generator(glmoveid):
         FLOG.write("\n")
         for i in range(ninterfaces):
             path = paths[i]
-            paths[i] = client.submit(ensemble_move_generator, i, path, glmoveid, pure=False, resources={"cores": 16})
+            paths[i] = client.submit(ensemble_move_generator, i, path, glmoveid, pure=False, resources={"cores": 12})
         tmppaths = [paths[j].result() for j in range(len(paths))]
         paths = [tmppaths[j][0] for j in range(len(tmppaths))]
         logs = [tmppaths[j][1] for j in range(len(tmppaths))]
@@ -277,7 +273,10 @@ def call_trjconv(interface,trajname,ntime,moveid,reverse,zeroswap=False):
         velocityshape = np.shape(u.atoms.velocities)
         
         if reverse == True:
-            u.atoms.velocities = -1*u.atoms.velocities
+            if 'gl-0' in trrpath or 'gl-0' in oldgro or 'gl-initf' in oldgro or 'gl-initf' in trrpath:   
+                u.atoms.velocities = 1*u.atoms.velocities
+            else:
+                u.atoms.velocities = -1*u.atoms.velocities
         #new_velocities = np.random.normal(0,sigma,velocityshape)
         #u.atoms.velocities = copy.deepcopy(new_velocities)
         
@@ -289,7 +288,10 @@ def call_trjconv(interface,trajname,ntime,moveid,reverse,zeroswap=False):
         oldgro = epath + "gro/" + moveid + "_old.gro"
         u = mda.Universe(oldgro)
         if reverse == True:
-            u.atoms.velocities = -1*u.atoms.velocities
+            if 'gl-0' in trrpath or 'gl-0' in oldgro or 'gl-initf' in oldgro or 'gl-initf' in trrpath:   
+                u.atoms.velocities = 1*u.atoms.velocities
+            else:
+                u.atoms.velocities = -1*u.atoms.velocities
         outputgro = u.select_atoms('all')
         outputgro.write(outpath)
 

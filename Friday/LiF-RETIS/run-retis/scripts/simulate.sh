@@ -36,7 +36,7 @@ export OMP_NUM_THREADS=1
 
 # Run simulation
 gmx grompp -f ${inputfilepath} -c ${grofilepath} -p ${topfilepath} -o ${tprpath}
-gmx mdrun -ntmpi 16 -ntomp 1 -s ${tprpath} -noappend -deffnm sim
+gmx mdrun -ntmpi 12 -ntomp 1 -s ${tprpath} -noappend -deffnm sim
 mv sim*edr ${edrpath}
 mv sim*xtc ${xtcfilepath}
 mv sim*cpt ${cptpath}

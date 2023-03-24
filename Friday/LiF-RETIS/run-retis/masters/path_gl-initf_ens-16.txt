@@ -1,2 +1,0 @@
-gl-initf_ens-16 7099.25000 2.90 1
-gl-initf_ens-16 0.0 0 1

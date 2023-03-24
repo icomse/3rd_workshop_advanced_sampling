@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks-per-node=16
+#SBATCH --ntasks-per-node=12
 #SBATCH -t 6:00:00
 #SBATCH --job-name=LiFRETIS
 #SBATCH -e stderr-LiF

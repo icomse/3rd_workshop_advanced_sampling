@@ -1,9 +1,8 @@
-; Written by Ryan DeFever
-; SAMPEL Group
-; 2018 Jun 11
 
-; Modified by Porhouy (PH) Minh
-; 2023 Mar 21
+; Ryan DeFever
+; Sarupria Research Group
+; Clemson University
+; 2018 Jun 11
 
 
 #include "/ocean/projects/see220002p/$(whoami)/LiF-RETIS/dang-ions.itp"

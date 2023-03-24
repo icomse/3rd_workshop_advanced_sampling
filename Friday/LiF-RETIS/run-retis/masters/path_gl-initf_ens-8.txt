@@ -1,2 +1,2 @@
-gl-initf_ens-8 7099.25000 2.40 1
-gl-initf_ens-8 0.0 0 1
+gl-initf_ens-8 142.48500 2.380 1
+gl-initf_ens-8 0.0 0.0 1

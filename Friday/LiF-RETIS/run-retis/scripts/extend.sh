@@ -31,8 +31,8 @@ cp ${rstfilepath} rst/active_in.cpt
 export OMP_NUM_THREADS=1
 
 # Run simulation
-gmx convert-tpr -s ${oldtprpath} -extend 2.0 -o ${tprpath}
-gmx mdrun -s ${tprpath} -ntmpi 16 -ntomp 1 -cpi rst/active_in.cpt -noappend -deffnm sim
+gmx convert-tpr -s ${oldtprpath} -extend 0.1 -o ${tprpath}
+gmx mdrun -s ${tprpath} -ntmpi 12 -ntomp 1 -cpi rst/active_in.cpt -noappend -deffnm sim
 mv sim*edr log/${moveid}.edr
 mv sim*xtc ${xtcfilepath}
 mv sim*trr ${trrpath}
