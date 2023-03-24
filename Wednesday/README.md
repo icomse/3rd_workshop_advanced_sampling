@@ -1,6 +1,6 @@
 Enhanced sampling molecular dynamics on HPC systems
 ===================================================
-## Teacher/Author
+## Instructor/Author
 Wei-Tse Hsu
 - University of Colorado Boulder
 - www.weitsehsu.com
