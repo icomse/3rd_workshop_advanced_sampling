@@ -36,3 +36,6 @@ Note: For participants without Bridges2 access, please refer to this link: [http
 
 - Within each notebook, you will find short descriptions of what each notebook does and the learning objectives for that exercise.
 
+# Slide 
+- Slide for for TPS/TIS/RETIS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Thursday/2023-iCoMSE-PathSampling-P1-TPSTIS.pdf)
+
