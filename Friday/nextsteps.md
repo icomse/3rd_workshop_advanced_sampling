@@ -50,8 +50,8 @@ How do I find good collective variabies?
 ### Review papers about machine learning for finding collective variables
 - [Machine Learning Force Fields and Coarse-Grained Variables in Molecular Dynamics: Application to Materials and Biological Systems
 ](https://doi.org/10.1021/acs.jctc.0c00355)
-- https://doi.org/10.1080/00268976.2020.1737742
-- https://doi.org/10.1017/qrd.2022.23
+- [Machine learning for collective variable discovery and enhanced sampling in biomolecular simulation](https://doi.org/10.1080/00268976.2020.1737742
+- https://doi.org/10.1017/qrd.2022.23)
 - https://doi.org/10.1016/j.sbi.2019.12.016
 - https://doi.org/10.48550/arXiv.2303.08486
   
