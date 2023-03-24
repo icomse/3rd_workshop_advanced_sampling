@@ -52,7 +52,7 @@ How do I find good collective variabies?
 ](https://doi.org/10.1021/acs.jctc.0c00355)
 - [Machine learning for collective variable discovery and enhanced sampling in biomolecular simulation](https://doi.org/10.1080/00268976.2020.1737742)
 - [Chasing collective variables using temporal data-driven strategies](https://doi.org/10.1017/qrd.2022.23)
-- https://doi.org/10.1016/j.sbi.2019.12.016
+- [Machine learning approaches for analyzing and enhancing molecular dynamics simulations](https://doi.org/10.1016/j.sbi.2019.12.016)
 - https://doi.org/10.48550/arXiv.2303.08486
   
 
