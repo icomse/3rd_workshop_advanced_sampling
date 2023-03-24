@@ -6,7 +6,7 @@
 - Other reviews about enhanced sampling: 
   - [Enhancing Important Fluctuations: Rare Events and Metadynamics from a Conceptual Viewpoint](https://doi.org/10.1146/annurev-physchem-040215-112229)
   - [Using metadynamics to explore complex free-energy landscapes](https://doi.org/10.1038/s42254-020-0153-0)
-  - https://doi.org/10.1007/978-3-319-44677-6_49
+  - [Metadynamics: A Unified Framework for Accelerating Rare Events and Sampling Thermodynamics and Kinetics](https://doi.org/10.1007/978-3-319-44677-6_49)
   - https://doi.org/10.1007/978-1-4939-9608-7_21 (also https://arxiv.org/abs/1812.08213)
   - https://doi.org/10.1039/d1cp04809k
 
