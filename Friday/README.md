@@ -1,5 +1,8 @@
 # Friday (FFS and cFFS Tutorials and Simulation of LiF Dissociation using RETIS and FFS):
 
+# Slide:
+- Slide for FFS/cFFS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Friday/2023-iCoMSE-PathSampling-P2-FFScFFS.pdf)
+
 # Getting setup and downloading the tutorials:
 
 - To get this started, please login to Bridges2 OnDemand via: https://ondemand.bridges2.psc.edu/pun/sys/dashboard/
@@ -33,7 +36,6 @@ Note: For participants without Bridges2 access, please refer to this link: [http
 - Each of these Jupyter notebooks will use langevin_dynamics.py, which uses stochastic dynamics to sample between two states (i.e., A and B) of the potential energy surfaces (PES) we provided.   
 
 - Within each notebook, you will find short descriptions of what each notebook does and the learning objectives for that exercise.
-
 
 # Simulation of LiF Dissociation using RETIS and FFS
 
