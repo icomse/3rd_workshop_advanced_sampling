@@ -1,6 +1,6 @@
 # Metadynamics Tutorial
 
-## Teacher/Author
+## Instructor/Author
 
 **Dr. Omar Valsson**
 - Department of Chemistry, University of North Texas
