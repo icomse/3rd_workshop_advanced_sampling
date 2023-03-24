@@ -11,7 +11,7 @@
 |---------------------|---------------------|
 | Monday    | [Introduction and Theory of Enhanced Sampling](Monday/README.md)           |              
 | Tuesday   | [Metadynamics](Tuesday/README.md)        |                
-| Wednesday | [Replica Exchange](Wednesday/README.md)                    |        
+| Wednesday | [Replica Exchange, Umbrella Sampling and Hybrid Methods](Wednesday/README.md)                    |        
 | Thursday | [Path Sampling](Thursday/README.md)                |               
 | Friday    | [Path Sampling](Friday/README.md)     	      	    |         
 
