@@ -17,7 +17,7 @@
   - PLUMED is the metadynamics code that was discussed earlier.  Note that is bigger than just metadynamics - there are other related methods that are supported as well. The official manual for PLUMED version 2.9 can be found [here](https://www.plumed.org/doc-v2.9/user-doc/html/index.html). A number of tutorials can also be found in the [manual](https://www.plumed.org/doc-v2.9/user-doc/html/tutorials.html)
   - [PLUMED-Nest](https://www.plumed-nest.org/) 
     - A repository of "recipies" (input file sets) written for PLUMED; it's possible that something you want to try to do, or something SIMILAR to what you wanted to do, is already implemented, and you can borrow that!
-   - [PLUMED Masterclass](https://www.plumed.org/masterclass): Corresponding YouTube videos with lectures and solutions found [here](https://www.youtube.com/watch?v=2eGhMSdIJEs&list=PLmdKEn2znJEld8l6Hp9PXf4EursC4-8nC)**
+   - [PLUMED Masterclass](https://www.plumed.org/masterclass): Corresponding YouTube videos with lectures and solutions found [here](https://www.youtube.com/watch?v=2eGhMSdIJEs&list=PLmdKEn2znJEld8l6Hp9PXf4EursC4-8nC)
     - [Masterclass 21.1: PLUMED syntax and analysis](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-21-1.html)
     - [Masterclass 21.2: Statistical errors in MD](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-21-2.html)
     - [Masterclass 21.3: Umbrella sampling](https://www.plumed.org/doc-v2.9/user-doc/html/masterclass-21-3.html)
