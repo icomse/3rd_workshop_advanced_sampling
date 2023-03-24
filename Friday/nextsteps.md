@@ -4,7 +4,6 @@
  - The big review: [Enhanced Sampling Methods for Molecular Dynamics Simulations [Article v1.0]](https://livecomsjournal.org/index.php/livecoms/article/view/v4i1e1583)
    - This review is part of LiveCoMS, and attemps to systemetize the differences between different methods.  It is rather extensive, with over 400 references so far!  -    - Because it is a "live" article, you can file issues on the GitHub repository associated with the article asking to have things explained better, or have and additional method we forgot to add!
 - Other reviews about enhanced sampling: 
-  - https://doi.org/10.33011/livecoms.4.1.1583
   - https://doi.org/10.1146/annurev-physchem-040215-112229
   - https://doi.org/10.1038/s42254-020-0153-0
   - https://doi.org/10.1007/978-3-319-44677-6_49
