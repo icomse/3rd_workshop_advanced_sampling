@@ -3,9 +3,11 @@ Enhanced sampling molecular dynamics on HPC systems
 ## Teacher/Author
 Wei-Tse Hsu
 - University of Colorado Boulder
-- weitsehsu.com
+- www.weitsehsu.com
 - wehs7661@colorado.edu
 - [@WeiTseHsu](https://twitter.com/WeiTseHsu)
+
+If you're interested, check my personal website for more future posts/tutorials about advanced sampling methods!
 
 ## Outline
 Here is the outline of this session, which alternatives between lecture sections (presented with the slides [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Wednesday/enhanced_sampling_workshop.pdf)) and hands-on exercises:
