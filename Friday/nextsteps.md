@@ -13,7 +13,7 @@
   - A repository of "recipies" written for PLUMED; it's possible that something you want to try to do, or something SIMILAR to what you wanted to do, is already implemented, and you can borrow that!
 - [WESTPA](https://westpa.readthedocs.io/)
   - Software for a method we didn't really talk about, _weighted ensemble_ which biases sampling by maintaining "copies" of the system equally populated along the collective variable of interest.  
-  - A LiveCoMS article describing some WESTPA tutorials [linked here](https://livecomsjournal.org/index.php/livecoms/article/view/v1i2e10607) 
+  - A LiveCoMS article describing some WESTPA tutorials [linked here](https://livecomsjournal.org/index.php/livecoms/article/view/v1i2e10607). 
 - [pymbar](https://pymbar.readthedocs.io/)
   - A set of functions for calculating free energies between states and removing biases using multistate reweighting. [You can see a video about multistate reweighting here](https://www.youtube.com/watch?v=yGyQa8opfi0). 
 - [alchemlyb](https://alchemlyb.readthedocs.io/)
