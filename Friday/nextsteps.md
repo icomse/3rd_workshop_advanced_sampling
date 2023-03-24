@@ -15,7 +15,7 @@
   - Software for a method we didn't really talk about, _weighted ensemble_ which biases sampling by maintaining "copies" of the system equally populated along the collective variable of interest.  
   - A document with the different 
 - [pymbar](https://pymbar.readthedocs.io/)
-  - A set of functions for calculating free energies between states and removing biases using multistate reweighting. [You can see a video about multistate reweighting here](https://www.youtube.com/watch?v=yGyQa8opfi0) 
+  - A set of functions for calculating free energies between states and removing biases using multistate reweighting. [You can see a video about multistate reweighting here](https://www.youtube.com/watch?v=yGyQa8opfi0). 
 - [alchemlyb](https://alchemlyb.readthedocs.io/)
   - a wrapper library to make it easy to parse output from molecular simulation programs into pymbar and other free energy calculation routines, as well as interact usefully with the analysis coming out of this software.
 - [physical_validation](https://physical-validation.readthedocs.io/)
