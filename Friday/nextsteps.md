@@ -43,7 +43,7 @@
 How do I find good collective variabies?
 
 ### Reviews and other useful papers about collective variables
-- https://doi.org/10.1021/acsomega.2c06310
+- [Collective Variables for Crystallization Simulations─from Early Developments to Recent Advances](https://doi.org/10.1021/acsomega.2c06310)
 - https://doi.org/10.1103/physreve.107.l012601
 - https://doi.org/10.1140/epjb/s10051-021-00233-5
 
