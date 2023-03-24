@@ -19,7 +19,7 @@
 - [alchemlyb](https://alchemlyb.readthedocs.io/)
   - a wrapper library to make it easy to parse output from molecular simulation programs into pymbar and other free energy calculation routines, as well as interact usefully with the analysis coming out of this software.
 - [physical_validation](https://physical-validation.readthedocs.io/)
-  - A set of tools to determine if your simulation obeys certain physical laws, such as equipartition and consistency with the Boltzamm distribution. You can see a [video about the approaches to do this here](https://www.youtube.com/watch?v=-Zxvi7EQwE4&t=483s).
+  - A set of tools to determine if your simulation obeys certain physical laws, such as equipartition and consistency with the Boltzamm distribution. You can see a [video about the approaches to do this here](https://www.youtube.com/watch?v=-Zxvi7EQwE4).
 
 ## Cutting edge questions
 
