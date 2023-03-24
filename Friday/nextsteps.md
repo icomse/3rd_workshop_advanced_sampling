@@ -48,12 +48,12 @@ How do I find good collective variabies?
 - [Critical comparison of general-purpose collective variables for crystal nucleation](https://doi.org/10.1103/physreve.107.l012601)
 
 ### Review papers about machine learning for finding collective variables
+- [Manifold Learning in Atomistic Simulations: A Conceptual Review](https://doi.org/10.48550/arXiv.2303.08486)
 - [Machine Learning Force Fields and Coarse-Grained Variables in Molecular Dynamics: Application to Materials and Biological Systems
 ](https://doi.org/10.1021/acs.jctc.0c00355)
 - [Machine learning for collective variable discovery and enhanced sampling in biomolecular simulation](https://doi.org/10.1080/00268976.2020.1737742)
 - [Chasing collective variables using temporal data-driven strategies](https://doi.org/10.1017/qrd.2022.23)
 - [Machine learning approaches for analyzing and enhancing molecular dynamics simulations](https://doi.org/10.1016/j.sbi.2019.12.016)
-- https://doi.org/10.48550/arXiv.2303.08486
   
 
 
