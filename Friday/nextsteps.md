@@ -9,6 +9,7 @@
   - [Using metadynamics to explore complex free-energy landscapes](https://doi.org/10.1038/s42254-020-0153-0)
   - [Metadynamics: A Unified Framework for Accelerating Rare Events and Sampling Thermodynamics and Kinetics](https://doi.org/10.1007/978-3-319-44677-6_49)
   - [Analyzing and Biasing Simulations with PLUMED](https://doi.org/10.1007/978-1-4939-9608-7_21) (also https://arxiv.org/abs/1812.08213)
+  - [Best Practices for Alchemical Free Energy Calculations v1.0](https://livecomsjournal.org/index.php/livecoms/article/view/v2i1e18378) 
 
    
 ## Useful Software Tools
