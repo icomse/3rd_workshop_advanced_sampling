@@ -1,6 +1,6 @@
 # this script is used to set up directories that we copy .txt and .trr files into and then used in the global-manager.py
 
-for i in {0..16}; do 
+for i in {0..13}; do 
     mkdir ${i}/
     mkdir ${i}/gro
     mkdir ${i}/input
