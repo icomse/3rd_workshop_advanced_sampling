@@ -9,6 +9,14 @@ Wei-Tse Hsu
 
 If you're interested, check my personal website for more future posts/tutorials about advanced sampling methods!
 
+## Videos
+
+[Part 1](https://www.youtube.com/watch?v=TasABfyKE6c)
+
+[Part 2](https://www.youtube.com/watch?v=6slOYyFeNj8)
+
+[Part 3](https://www.youtube.com/watch?v=M6H83kzmsoc)
+
 ## Outline
 Here is the outline of this session, which alternatives between lecture sections (presented with the slides [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Wednesday/enhanced_sampling_workshop.pdf)) and hands-on exercises:
 - Introduction to High-Performing Computing (HPC) systems (pages 1 and 2 in the slides)
