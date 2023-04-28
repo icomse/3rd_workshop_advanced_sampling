@@ -1,9 +1,9 @@
 # Path Sampling Tutorials
 
-# Slide 
-- Slide for for TPS/TIS/RETIS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Thursday/2023-iCoMSE-PathSampling-P1-TPSTIS.pdf)
+## Slides 
+- Slides for for TPS/TIS/RETIS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Thursday/2023-iCoMSE-PathSampling-P1-TPSTIS.pdf)
 
-# Getting setup and downloading the tutorials:
+## Getting setup and downloading the tutorials:
 
 - To get this started, please login to Bridges2 OnDemand via: https://ondemand.bridges2.psc.edu/pun/sys/dashboard/
 
@@ -24,7 +24,7 @@
  
  In addition to the Monday - Wednesday directories, you should now also see Thursday and Friday directories 
  
-# Thursday Tutorials (Toy models of path sampling methods):
+## Thursday Tutorials (Toy models of path sampling methods):
 
 This tutorial will be run through Jupyter notebooks (located in the directory at the left of your screen) via OnDemand. For each Jupyter notebook, please make sure to switch your kernel to “icomse-cpu” kernel.
 
