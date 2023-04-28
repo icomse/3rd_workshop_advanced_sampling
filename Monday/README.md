@@ -1,6 +1,6 @@
 ### Slides
 
-[Slides are linked here](Monday Enhanced sampling workshop 2023.pdf)
+[Slides are linked here](<Monday Enhanced sampling workshop 2023.pdf>)
 
 ### Python Code
 [`toy_model_for_sampling.ipynb`](toy_model_for_sampling.ipynb) is the notebook we will use for the hands on session Monday. The notebook does not use MD packages on bridges, so can be run locally. Note that the notebook may be updated until just before the start of the workshop, so redownload when the workshop starts!
