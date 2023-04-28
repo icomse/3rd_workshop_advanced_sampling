@@ -1,9 +1,14 @@
-# Friday (FFS and cFFS Tutorials and Simulation of LiF Dissociation using RETIS and FFS):
+## Friday (FFS and cFFS Tutorials and Simulation of LiF Dissociation using RETIS and FFS):
 
-# Slide:
+## Slides:
 - Slide for FFS/cFFS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Friday/2023-iCoMSE-PathSampling-P2-FFScFFS.pdf)
 
-# Getting setup and downloading the tutorials:
+## Videos: 
+
+- [Video for cFFS explanantion](https://www.youtube.com/watch?v=xfzFO4RkGM8)
+- [Video for FFS tutorial](https://www.youtube.com/watch?v=04Dxm57VLMI)
+
+## Getting setup and downloading the tutorials:
 
 - To get this started, please login to Bridges2 OnDemand via: https://ondemand.bridges2.psc.edu/pun/sys/dashboard/
 
@@ -23,7 +28,7 @@
   - “$ git pull”: This will allow you to download the latest version of contents within the iCoMSE repository.
     - If you are facing an issue due to the fact that you have previous commits, then you'd run do a "$ git revert" first before doing "$ git pull"
  
-# Friday Tutorials (Toy models of path sampling methods):
+## Friday Tutorials (Toy models of path sampling methods):
 
 This tutorial will be run through Jupyter notebooks (located in the directory at the left of your screen) via OnDemand. For each Jupyter notebook, please make sure to switch your kernel to “icomse-cpu” kernel.
 
