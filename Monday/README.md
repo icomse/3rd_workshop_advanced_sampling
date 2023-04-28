@@ -2,11 +2,10 @@
 
 ## Instructor/Author
 
-**Dr. Michael Shirts **
+**Dr. Michael Shirts**
 - Department of Chemical and Biolgical Engineering, University of Colorado Boulder
 - https://www.colorado.edu/lab/shirtsgroup/
 - michael.shirts@colorado.edu
-- [@OmarValsson](https://twitter.com/OmarValsson)
 
 ### Slides
 
