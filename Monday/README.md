@@ -1,4 +1,4 @@
-# Introduction to Theory of Enhanced Sampling
+# Introduction to Workshop and Theories of Enhanced Sampling
 
 ## Instructor/Author
 
