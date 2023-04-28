@@ -1,5 +1,16 @@
 # Path Sampling Tutorials
 
+## Instructor/Authors
+
+**Dr. Sapna Sarupria**
+- Department of Chemistry, University of Minnesota
+- https://sarupriagroup.github.io/
+- sarupria@umn.edu
+
+**Tutorials**
+- PH (Porhouy Minh)
+- Naomi Trampe
+
 ## Slides 
 - Slides for for TPS/TIS/RETIS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Thursday/2023-iCoMSE-PathSampling-P1-TPSTIS.pdf)
 
