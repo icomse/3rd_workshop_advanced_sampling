@@ -12,6 +12,14 @@
 
 The slides can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Tuesday/i-CoMSE-Workshop-Metadynamics-March21-2023.pdf)
 
+## Videos
+
+[Part 1](https://www.youtube.com/watch?v=KIFXm40XfhM)
+
+[Part 2](https://www.youtube.com/watch?v=kDDj1Ny3_vo)
+
+[Part 3](https://www.youtube.com/watch?v=ynWGY9ft7bQ)
+
 ## Resources
 
 ### PLUMED 
