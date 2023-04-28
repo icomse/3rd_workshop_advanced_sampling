@@ -1,4 +1,15 @@
-## Friday (FFS and cFFS Tutorials and Simulation of LiF Dissociation using RETIS and FFS):
+## FFS and cFFS Tutorials and Simulation of LiF Dissociation using RETIS and FFS:
+
+## Instructor/Authors
+
+**Dr. Sapna Sarupria**
+- Department of Chemistry, University of Minnesota
+- https://sarupriagroup.github.io/
+- sarupria@umn.edu
+
+**Tutorials**
+- PH (Porhouy Minh)
+- Naomi Trampe
 
 ## Slides:
 - Slide for FFS/cFFS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Friday/2023-iCoMSE-PathSampling-P2-FFScFFS.pdf)
