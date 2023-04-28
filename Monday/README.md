@@ -1,3 +1,13 @@
+# Introduction to Theory of Enhanced Sampling
+
+## Instructor/Author
+
+**Dr. Michael Shirts **
+- Department of Chemical and Biolgical Engineering, University of Colorado Boulder
+- https://www.colorado.edu/lab/shirtsgroup/
+- michael.shirts@colorado.edu
+- [@OmarValsson](https://twitter.com/OmarValsson)
+
 ### Slides
 
 [Slides are linked here](<Monday Enhanced sampling workshop 2023.pdf>)
