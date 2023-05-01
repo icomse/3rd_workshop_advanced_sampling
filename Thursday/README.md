@@ -14,7 +14,7 @@
 ## Slides 
 - Slides for for TPS/TIS/RETIS session can be found [here](https://github.com/icomse/3rd_workshop_advanced_sampling/blob/main/Thursday/2023-iCoMSE-PathSampling-P1-TPSTIS.pdf)
 
-## Getting setup and downloading the tutorials:
+## Getting setup and downloading the tutorials ((NOTE: much of the material about accessing computing resources was for the workshop, and will not be available for people viewing the information after the workshop)
 
 - To get this started, please login to Bridges2 OnDemand via: https://ondemand.bridges2.psc.edu/pun/sys/dashboard/
 
@@ -31,7 +31,7 @@
   - “$ cd [YOUR iCoMSE DIRECTORY]”
 
 - Then using the command
-  - “$ git fetch”: This will allow you to download the latest version of contents within the iCoMSE repository. 
+  - “$ git fetch”: This will allow you to download the latest version of contents within the iCoMSE repository. (note: you will need to first clone this repository before fetching)
  
  In addition to the Monday - Wednesday directories, you should now also see Thursday and Friday directories 
  
