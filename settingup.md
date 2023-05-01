@@ -1,4 +1,4 @@
-# Setting up software for this i-CoMSE workshop:
+# Setting up software for the material from this i-CoMSE workshop:
 
 ### If you have your own account/allocation on PSC
 
