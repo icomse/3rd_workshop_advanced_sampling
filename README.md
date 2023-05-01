@@ -15,4 +15,5 @@
 | Thursday | [Path Sampling](Thursday/README.md)                |               
 | Friday    | [Path Sampling](Friday/README.md)     	      	    |         
 
+### Post-workshop
 [Step to learn more after the workshop](nextsteps.md)
