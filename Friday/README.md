@@ -19,7 +19,7 @@
 - [Video for cFFS explanantion](https://www.youtube.com/watch?v=xfzFO4RkGM8)
 - [Video for FFS tutorial](https://www.youtube.com/watch?v=04Dxm57VLMI)
 
-## Getting setup and downloading the tutorials:
+## Getting setup and downloading the tutorials (NOTE: much of the material about accessing computing resources was for the workshop, and will not be available for people viewing the information after the workshop)
 
 - To get this started, please login to Bridges2 OnDemand via: https://ondemand.bridges2.psc.edu/pun/sys/dashboard/
 
@@ -36,7 +36,7 @@
   - “$ cd [YOUR iCoMSE DIRECTORY]”
 
 - Then using the command
-  - “$ git pull”: This will allow you to download the latest version of contents within the iCoMSE repository.
+  - “$ git pull”: This will allow you to download the latest version of contents within the iCoMSE repository. (note: the repository referred to is THIS repostitory, which contains this information - you will have to clone it, via `git clone https://github.com/icomse/3rd_workshop_advanced_sampling.git`.)
     - If you are facing an issue due to the fact that you have previous commits, then you'd run do a "$ git revert" first before doing "$ git pull"
  
 ## Friday Tutorials (Toy models of path sampling methods):
@@ -57,7 +57,7 @@ Note: For participants without Bridges2 access, please refer to this link: [http
 
 To run this LiF dissociation simulation, with either RETIS or FFS, we will need to access a directory that allows for more storage than the home directory can provide. 
 
-- If you are new to this workshop, you will need to create a directory in the “ocean” directory. To this please run the following command: 
+- If you are new to this workshop, you will need to create a directory in the “ocean” directory (note: only for people attending the workshop). To this please run the following command: 
 
   - “$ mkdir /ocean/projects/see220002p/$(whoami)”
 
