@@ -1,5 +1,6 @@
 # Setting up software for this i-CoMSE workshop:
 
+## NOTE: This guide is for setting up the software for official invitees during the workshop.  For how to set up the software if you are reading this material afterwards, see ...
 ## Official invitees
 
 * Before we start the workshop, you should test your connection for Bridges2, which we will be using as the primary source of computing resources.  We will be accessing the system in two ways: running a Jupyter notebook, and directly running 
